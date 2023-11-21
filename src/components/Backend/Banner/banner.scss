@@ -1,0 +1,16 @@
+.banner-card-preview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        margin: 1rem;
+        max-width: 480px;
+    }
+}
+
+.Form-container Button {
+    margin: 1rem;
+}

@@ -1,0 +1,14 @@
+.admin-container {
+    display: flex;
+    flex-direction: row;
+
+    .admin-right{
+        flex: 8;
+    }
+}
+
+.section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }

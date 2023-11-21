@@ -1,0 +1,42 @@
+.Modal-overlay .button-container {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.Modal-overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+}
+
+.Modal-container {
+  gap: 1rem;
+  margin: 1rem;
+  width: 75%;
+  height: 750px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 2rem 4rem rgba(black, 0.2);
+  border-radius: 10px;
+  overflow: scroll;
+  .Modal {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+  }
+}
+
+.Modal textarea {
+  padding: 0.6em;
+}

@@ -1,0 +1,10 @@
+.carousel {
+  max-width: 100%;
+  .carousel-image {
+    width: 100%;
+    transition: .3s;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.about-card-preview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    max-width: 480px;
+    height: fit-content;
+    .button-container {
+      display: flex;
+      justify-content: end;
+      margin: 1rem;
+      gap: 1rem;
+    }
+  }
+  .data-container {
+    white-space: pre-line;
+  }
+}
+
+.about-form-container {
+  width: 50%;
+  margin-left: 2rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.aboutus-container {
+  display: flex;
+  gap: 1.6rem;
+  margin: 1.6rem;
+  width: 50%;
+}
